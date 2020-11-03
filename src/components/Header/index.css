@@ -1,0 +1,26 @@
+.x {
+    background-color: rgb(213, 226, 236);
+}
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul > li {    
+    padding-left: 10px;
+    background: none;
+}
