@@ -1,0 +1,47 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.profile_container{
+    padding-left: 140px;
+}
+
+.subheader-text {
+    margin-right: 160px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.title{
+    font-size: 27px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+
+
+.slogan {
+    padding-bottom: 15px;
+    font-style: italic;
+}
+
+.social-icons{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
