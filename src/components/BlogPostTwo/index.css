@@ -1,0 +1,39 @@
+.posttwo_container{
+    margin:auto;
+    max-width: 1300px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.PostImagetwo{    
+    padding-right: 160px;
+}
+
+.posttwo{
+    padding-left: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post_titletwo{
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.post_contenttwo{
+    max-width: 500px;
+    padding-left: 0px;
+    text-align: justify;
+}
+
+.socialtwo {
+    padding-top: 20px;
+    padding-left: 0px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
