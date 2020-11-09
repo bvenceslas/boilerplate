@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     state = { 
@@ -15,8 +16,8 @@ class Header extends Component {
                 </h2>
                 <div className="menu">
                     <ul>
-                        <li><a href="/about">ABOUT</a></li>
-                        <li><a href="/post">ABOUT</a></li>
+                        <li><Link to="/about">HOME</Link></li>
+                        <li><Link to="/addPost">POST</Link></li>
                     </ul>
                 </div>
                 <div className="search-part">

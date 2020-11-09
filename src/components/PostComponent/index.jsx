@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import ImageArea from '../../assets/images/image_area.png';
 
-export default function PostComponent() {
+const PostComponent = () => {
     return (
         <div className="post-content">
             <div className="picture-area">
@@ -17,3 +17,5 @@ export default function PostComponent() {
         </div>
     )
 }
+
+export default PostComponent;
