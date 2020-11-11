@@ -1,19 +1,14 @@
 .postone_container{
-    margin:auto;
-    max-width: 1300px;
-    padding-top: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 20px;
+    padding: 10px;
+    border: 1px solid grey;
 }
 
 .PostImage{    
-    padding-left: 160px;
+    padding-left: 0px;
 }
 
 .post{
-    padding-right: 160px;
     display: flex;
     flex-direction: column;
 }
