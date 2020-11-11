@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import PostComponent from '../../components/PostComponent';
 import PostHeader from '../../components/PostHeader';
 import PostImage from '../../components/PostImage';
+import PostPreview from '../../components/PostPreview';
 
 const AddPost = ( ) => {
     return (
@@ -11,6 +12,7 @@ const AddPost = ( ) => {
             <PostImage />
             <PostHeader />
             <PostComponent />
+            <PostPreview />
         </div>
     )
 }

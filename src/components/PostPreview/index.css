@@ -1,0 +1,31 @@
+.postpreview_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 10px 30px 10px;
+}
+
+.postpreview{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.post_titletwo{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.post_contenttwo{
+    padding-left: 0px;
+    text-align: justify;
+}
+
+.socialtwo {
+    padding-top: 20px;
+    padding-left: 0px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
