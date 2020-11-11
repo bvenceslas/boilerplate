@@ -1,9 +1,8 @@
 .post-header-title{
-    font-size: 20px;
-    margin-left: 20px;    
+    font-size: 20px;   
 }
 
 .post-header-description {
     font-style: italic;
-    margin-left: 20px;  
+    padding-top: 10px;
 }
