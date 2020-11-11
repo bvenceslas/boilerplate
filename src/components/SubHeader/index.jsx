@@ -8,7 +8,7 @@ import InstagramIcon from '../../assets/images/instagram.png';
 
 const SubHeader = () => {
     return(
-        <div className="container">
+        <div className="subHeader-container">
             <div className="profile_container">
                 <img className="profile" src={BrainImg} alt="profile pic" />
             </div>

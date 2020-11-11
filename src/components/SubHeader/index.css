@@ -1,11 +1,9 @@
-.container {
+.subHeader-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 10px;
+    margin: auto;
+    max-width: 800px;
 }
 
 .profile {
@@ -15,11 +13,11 @@
 }
 
 .profile_container{
-    padding-left: 140px;
+    padding-left: 0px;
+    width: 30%;
 }
 
 .subheader-text {
-    margin-right: 160px;
     display: flex;
     flex-direction: column;
 }
