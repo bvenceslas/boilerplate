@@ -1,11 +1,6 @@
 .postone_container{
     display: flex;
     padding: 10px;
-    border: 1px solid grey;
-}
-
-.PostImage{    
-    padding-left: 0px;
 }
 
 .post{
@@ -16,10 +11,10 @@
 .post_title{
     font-size: 25px;
     padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .post_content{
-    max-width: 600px;
     padding-left: 20px;
     text-align: justify;
 }
