@@ -4,7 +4,7 @@ import LandingImg from '../../assets/images/landing.png';
 
 const Landing = () => {
     return(
-        <div className="container">
+        <div className="landing-container">
             <img src={LandingImg} alt="landing pic" width="980" height="150"/>
         </div>
     )
