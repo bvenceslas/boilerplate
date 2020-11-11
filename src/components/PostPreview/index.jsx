@@ -1,9 +1,6 @@
 import React from 'react';
 import './index.css';
 import PostOneImg from '../../assets/images/post_one.png';
-import FaceBookIcon from '../../assets/images/facebook.png';
-import TwitterIcon from '../../assets/images/twitter.png';
-import InstagramIcon from '../../assets/images/instagram.png';
 
 const PostPreview = ( ) => {
     return (
