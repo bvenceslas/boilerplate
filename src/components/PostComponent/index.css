@@ -1,0 +1,37 @@
+.post-content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid goldenrod;
+}
+
+.post-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-form > input{
+    width: 400px;
+    height: 40px;
+    background-color: #EBEBEB;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.post-form > textarea{
+    margin-top: 10px;
+    width: 400px;
+    height: 120px;
+    background-color: #EBEBEB;
+    border: none;
+}
+
+.post-form > button{
+    margin-top: 15px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+}
+
