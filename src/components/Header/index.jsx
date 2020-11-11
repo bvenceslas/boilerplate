@@ -10,11 +10,11 @@ class Header extends Component {
      }
     render() { 
         return ( 
-            <div className="container">
-                <h2 className="logo">
+            <div className="header-container">
+                <h2 className="header-logo">
                     {this.state.owner}
                 </h2>
-                <div className="menu">
+                <div className="header-menu">
                     <ul>
                         <li><Link to="/about">HOME</Link></li>
                         <li><Link to="/addPost">POST</Link></li>

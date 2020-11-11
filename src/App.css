@@ -5,5 +5,19 @@
 }
 
 *{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;  
 }
+
+.body{
+  background-color: #f4f5f9;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  padding: 50px;
+  background-color: #fff;
+  max-width: 1000px;
+  border: 1px red solid;
+}
+

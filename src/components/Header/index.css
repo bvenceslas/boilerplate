@@ -1,20 +1,12 @@
-.x {
-    background-color: rgb(213, 226, 236);
-}
-
-.container {
-    margin: auto;
-    max-width: 1300px;
-    display: flex;
+.header-container {
+    display: flex;    
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
+    align-items: center;    
+    border: 1px rgb(28, 156, 216) solid;
 }
 
-.menu > ul{
+.header-menu > ul{
     list-style: none;
     display: flex;
     flex-direction: row;
