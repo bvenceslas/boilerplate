@@ -10,7 +10,6 @@ const AddPost = ( ) => {
             <Header />
             <PostImage />
             <PostHeader />
-            <PostImage />
             <PostComponent />
         </div>
     )

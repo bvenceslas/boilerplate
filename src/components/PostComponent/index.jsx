@@ -6,13 +6,14 @@ const PostComponent = () => {
     return (
         <div className="post-content">
             <div className="picture-area">
-                <img src={ImageArea} alt="pic for post" />
+                <img src={ImageArea} alt="pic for post" width="400" height="300"/>
             </div>
-            <div className="post-text">
+            <div className="post-form">
                 {'TITLE'}
                 <input type='text' />
                 {'DESCRIPTION'}
-                <input type="textArea"/>
+                <textarea name="description"></textarea>
+                <button>{'POST'}</button>
             </div>
         </div>
     )

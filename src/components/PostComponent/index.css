@@ -1,20 +1,37 @@
 .post-content{
-    height: 300px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    border: 1px solid goldenrod;
 }
 
-.picture-area{
-    width: 295px;
-    height: 295px;
-}
-
-.post-text{
+.post-form{
     display: flex;
     flex-direction: column;
-    padding-left: 10px;    
+}
+
+.post-form > input{
+    width: 400px;
+    height: 40px;
+    background-color: #EBEBEB;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.post-form > textarea{
+    margin-top: 10px;
+    width: 400px;
+    height: 120px;
+    background-color: #EBEBEB;
+    border: none;
+}
+
+.post-form > button{
+    margin-top: 15px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
 }
 
