@@ -7,6 +7,7 @@ import {
     Switch,
     Route
   } from "react-router-dom";
+import About from './Pages/About';
 
 const App = () => {
     return (
@@ -14,6 +15,9 @@ const App = () => {
         <div className="main">
           <Router>
             <Switch>
+              <Route path="/about">
+                <About />
+              </Route>
               <Route path="/addPost">
                 <AddPost />
               </Route>

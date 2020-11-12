@@ -16,8 +16,9 @@ class Header extends Component {
                 </h2>
                 <div className="header-menu">
                     <ul>
-                        <li><Link to="/about">HOME</Link></li>
+                        <li><Link to="/">HOME</Link></li>
                         <li><Link to="/addPost">POST</Link></li>
+                        <li><Link to="/about">ABOUT</Link></li>
                     </ul>
                 </div>
                 <div className="search-part">
