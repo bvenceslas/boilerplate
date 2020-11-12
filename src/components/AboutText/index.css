@@ -1,0 +1,19 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px 30px 10px;
+}
+
+.about-text{
+    max-width: 980px;
+    text-align: justify;
+}
+
+.about-social {
+    padding-top: 20px;
+    padding-left: 0px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
