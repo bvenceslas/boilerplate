@@ -1,0 +1,35 @@
+.SubHeaderAbout-container {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: auto;
+    max-width: 800px;
+}
+
+.sub-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.subprofile_container{
+    padding-left: 0px;
+    width: 30%;
+}
+
+.SubHeaderAbout-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle{
+    font-size: 27px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.subslogan {
+    padding-bottom: 15px;
+    font-style: italic;
+}
+

@@ -1,12 +1,16 @@
 import React  from 'react';
+import AboutText from '../../components/AboutText';
 import Header from '../../components/Header';
+import SubHeaderAbout from '../../components/SubHeaderAbout';
 
-const About = ( ) => {
+const AddPost = ( ) => {
     return (
         <div>
-            <Header />            
+            <Header />
+            <SubHeaderAbout />
+            <AboutText />
         </div>
     )
 }
 
-export default About;
+export default AddPost;
