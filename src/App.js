@@ -8,6 +8,7 @@ import {
     Route
   } from "react-router-dom";
 import About from './Pages/About';
+import Login from './Pages/Login';
 
 const App = () => {
     return (
@@ -15,6 +16,9 @@ const App = () => {
         <div className="main">
           <Router>
             <Switch>
+              <Route path="/login">
+                <Login />
+              </Route>
               <Route path="/about">
                 <About />
               </Route>

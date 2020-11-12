@@ -19,6 +19,7 @@ class Header extends Component {
                         <li><Link to="/">HOME</Link></li>
                         <li><Link to="/addPost">POST</Link></li>
                         <li><Link to="/about">ABOUT</Link></li>
+                        <li><Link to="/login">Login</Link></li>
                     </ul>
                 </div>
                 <div className="search-part">
